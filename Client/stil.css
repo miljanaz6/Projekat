@@ -1,0 +1,87 @@
+.kontejner {
+	height: 350px;
+	display: flex;
+	/*align-items: center;*/
+	flex-direction: column;
+	background-image: url("https://www.proctorgallagherinstitute.com/wp-content/uploads/2016/05/bg004-2-860x646.jpg");
+	background-color: rgb(247, 195, 113);
+}
+
+.ostatak{
+	flex-grow: 1;
+	display: flex;
+}
+
+.casaKontejner{
+	flex-grow: 1;
+	height: 200px;
+	display: flex;
+	flex-direction: column;	
+	margin-left: 10px;
+}
+
+.okvir{
+	flex-grow: 1;
+	border: solid black 2px;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	flex-direction: column-reverse;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.red1 {
+    flex-grow: 1;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	
+}
+
+.red2 {
+    flex-grow: 1;
+	
+}
+
+.red3 {
+    flex-grow: 1;
+	
+}
+
+.red4 {
+    flex-grow: 1;
+	
+}
+.red5 {
+    flex-grow: 0.4;
+	background-color: rgb(255,255,255,0.18);
+}
+
+.forma {
+	flex-grow:1;
+	display: flex;	
+	flex-direction: column;
+	margin-left:2%;
+}
+
+.button{
+	margin-top:2%;
+    background-color: rgb(130, 143, 143);
+}
+
+.naslov{
+	background-color: chocolate;
+	align-self: center;
+}
+
+.labOdnos{
+	color:rgb(19, 3, 4);
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.labOznaka{
+	color:rgb(13, 6, 27);
+	font-size: larger;
+	font-weight: bolder;
+}
